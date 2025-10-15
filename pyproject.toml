@@ -1,0 +1,10 @@
+[project]
+name = "diskdrill-knockoff"
+version = "0.1.0"
+description = "Lightweight command-line data recovery helper inspired by Disk Drill"
+readme = "README.md"
+authors = [{name = "AI Assistant"}]
+requires-python = ">=3.10"
+
+[project.scripts]
+diskdrill-knockoff = "diskdrill_knockoff.cli:main"
